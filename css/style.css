@@ -5,7 +5,9 @@
 }
 
 .snack-1, 
-.snack-2 {
+.snack-2, 
+.snack-3, 
+.snack-4 {
     margin: 50px;
     font-size: 20px;
 }

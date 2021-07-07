@@ -38,3 +38,18 @@ while (listInvitations.length <= 3) {
     }
 }
 console.table(listInvitations);
+
+// STAMPA IN HTML
+
+var listItem = " ";
+
+for (i = O; i < names.length; i++) {
+    listItem += "<li>" + listInvitations[i] + "</li>";
+}
+
+console.table(listItem);
+
+var displayList = document.getElementById("invitations-list");
+
+displaList.innerHTML = listItem;
+

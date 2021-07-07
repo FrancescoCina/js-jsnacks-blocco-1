@@ -28,3 +28,29 @@ while (firstArr.length !== secondArr.length) {
 
 console.table(firstArr);
 console.table(secondArr);
+
+
+// STAMPA HTML 
+// Primo Array
+
+var displayFirstList = document.getElementById("first-list-numbers");
+
+var listItem = "";
+
+for (i = 0; i < firstArr.length; i++) {
+    listItem += "<li>" + firstArr[i] + "</li>";
+}
+
+displayFirstList.innerHTML = listItem;
+
+// Secondo Array
+var displaySecondList = document.getElementById("second-list-numbers");
+
+
+var listItem = "";
+
+for (i = 0; i < secondArr.length; i++) {
+    listItem += "<li>" + secondArr[i] + "</li>";
+}
+
+displaySecondList.innerHTML = listItem;
