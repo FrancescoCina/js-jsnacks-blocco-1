@@ -10,20 +10,11 @@
 3- genera "contatore" random;
 4- targettizza array attraverso "contatore" random;
 5- somma le due stringhe di nome e cognome;
-6- fai un ciclo per 3 volte;
-7- if nome completo è ===, ripeti;
+6- finchè la lunghezza della lista è inferiore a 4 posso procedere
+7- se la lista di invitati non include il fullname generato dalla somma di nome+cognome 
+8- allora pusho;
 */
 
-
-
-
-
-
-
-
-
-
-/*
 
 var listInvitations = [""];
 
@@ -32,18 +23,18 @@ console.table(names);
 var surnames = ["Cina", "Rossi", "Bianchi"];
 console.table(surnames);
 
-var numb1 = Math.floor(Math.random() * names.length);
-var numb2 = Math.floor(Math.random() * surnames.length);
+while (listInvitations.length <= 3) {
 
-var randomName = names[numb1];
-var randomSurname = surnames[numb2];
+    var numb1 = Math.floor(Math.random() * names.length);
+    var numb2 = Math.floor(Math.random() * surnames.length);
 
-console.log(fullname);
+    var randomName = names[numb1];
+    var randomSurname = surnames[numb2];
 
-for (i = 0; i < 3; i++) {
     var fullname = randomName + " " + randomSurname;
-    listInvitations += fullname;
-}
 
+    if (!listInvitations.includes(fullname)) {
+        listInvitations.push(fullname);
+    }
+}
 console.table(listInvitations);
- */
