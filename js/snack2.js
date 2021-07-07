@@ -3,7 +3,7 @@ Chiedi un numero all'utente, se è pari stampa il numero,
 se è dispari stampa il numero successivo.
 */
 
-
+// PASSAGGI
 /*
 1- fai prompt per l'utente in cui si chiede un numero;
 2- if pari, stampa;

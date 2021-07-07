@@ -7,8 +7,8 @@ Il programma stampa la somma di tutti i numeri inseriti.
 Esegui questo programma in due versioni, con il for e con il while.
 */
 
+// PASSAGGI
 /*
-
 1- ciclo for con all'interno il prompt per il numero che deve fornire l'utente;
 2- console.log sommando i risultati;
 3- stampo in HTML la somma dei numeri;
